@@ -1,0 +1,147 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.register-main {
+  height: 100vh;
+  background-color: white !important;
+}
+
+.register-linkedinLogo {
+  display: block;
+  padding: 32px 0 0 56px;
+}
+
+.register-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.register-wrapper .register-wrapper-inner {
+  max-width: 300px;
+  width: 100%;
+  padding: 24px;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+.register-wrapper .heading {
+  margin-top: 0;
+  font-family: system-ui;
+  font-weight: 500;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.9);
+}
+.register-wrapper .sub-heading {
+  margin-top: -20px;
+  font-family: system-ui;
+  font-size: 25px;
+  text-align: center;
+  color: #8f5849;
+}
+
+.auth-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 300px;
+}
+.auth-inputs .common-input {
+  height: 30px;
+  padding: 10px;
+  border-color: white;
+  outline: none;
+  border: 1px solid #212121;
+  color: #212121;
+  border-radius: 3px;
+  font-family: system-ui;
+  font-size: 16px;
+}
+.auth-inputs .common-input:focus {
+  border: 1px solid rgb(11, 171, 211);
+}
+
+.rule {
+  width: 300px;
+  font-family: system-ui;
+  font-size: 10px;
+  color: rgba(0, 0, 0, 0.7);
+  margin-bottom: 0;
+}
+.rule a {
+  color: #0a66c2;
+  text-decoration: none;
+}
+
+.register-btn {
+  width: 300px;
+  height: 50px;
+  cursor: pointer;
+  background-color: #0073b1;
+  border-radius: 30px;
+  outline: none;
+  border: none;
+  font-family: system-ui;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.register-btn:hover {
+  background-color: #004c75;
+}
+
+.hr-text {
+  line-height: 1em;
+  position: relative;
+  outline: 0;
+  border: 0;
+  color: black;
+  text-align: center;
+  height: 1.5em;
+  opacity: 0.5;
+}
+.hr-text:before {
+  content: "";
+  background: linear-gradient(to right, transparent, #818078, transparent);
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  height: 1px;
+}
+.hr-text:after {
+  content: attr(data-content);
+  position: relative;
+  display: inline-block;
+  color: black;
+  padding: 0 0.5em;
+  line-height: 1.5em;
+  color: #818078;
+  background-color: #fcfcfa;
+}
+
+.google-btn-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+}
+.google-btn-container .google-btn {
+  width: 300px !important;
+}
+.google-btn-container .go-to-signup {
+  font-family: system-ui;
+  font-size: 18px;
+  margin-bottom: 0;
+}
+.google-btn-container .join-now {
+  color: #0072b1;
+  font-family: system-ui;
+  cursor: pointer;
+  font-size: 18px;
+}/*# sourceMappingURL=RegisterComponent.css.map */

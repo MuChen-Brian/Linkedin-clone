@@ -1,0 +1,23 @@
+.connection-main {
+    margin: 30px auto 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 70%;
+    gap: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid #bbbbbb;
+
+    .connection-container {
+        border: 1px solid #bbbbbb;
+        border-radius: 10px;
+        box-sizing: border-box;
+        padding: 10px;
+        width: 300px;
+        min-height: 350px;
+    }
+}

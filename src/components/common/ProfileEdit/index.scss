@@ -1,0 +1,108 @@
+$linkedinBlue1: #0072b1;
+$linkedinBlue2: #0073b1;
+$linkedinBlue3: #004c75;
+
+.profile-edit-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-edit {
+    margin-top: 30px;
+    width: 50%;
+    height: auto;
+    background-color: white;
+    border-radius: 5px;
+    padding: 0 20px 20px 20px;
+    position: relative;
+
+    .close-btn {
+        position: absolute;
+        right: 20px;
+        top: 10px;
+
+        .close-icon {
+            cursor: pointer;
+            padding: 10px;
+        }
+
+        .close-icon:hover {
+            background-color: rgb(197, 197, 197);
+            border-radius: 50%;
+        }
+    }
+}
+
+
+
+.profile-edit-ipts {
+    display: grid;
+    margin-top: 40px;
+    gap: 20px;
+
+    label {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 12px;
+    }
+
+    .edit-ipt {
+        margin: -15px 0 0 0;
+        height: 20px;
+        padding: 10px;
+        border-color: white;
+        outline: none;
+        border: 1px solid #212121;
+        color: #212121;
+        border-radius: 3px;
+        font-family: system-ui;
+        font-size: 14px;
+    }
+
+    .edit-ipt:focus {
+        border: 1px solid rgb(11, 171, 211);
+    }
+
+    ::placeholder {
+        font-family: system-ui;
+        font-size: 14px;
+    }
+
+    .edit-textarea {
+        margin: -15px 0 0 0;
+        padding: 10px;
+        border-color: white;
+        outline: none;
+        border: 1px solid #212121;
+        color: #212121;
+        border-radius: 3px;
+        font-family: system-ui;
+        font-size: 16px;
+        resize: none;
+    }
+
+    .edit-textarea:focus {
+        border: 1px solid rgb(11, 171, 211);
+        overflow-y: hidden;
+    }
+}
+
+.save-container {
+    display: flex;
+    justify-content: center;
+
+    .save-btn {
+        width: 300px;
+        height: 50px;
+        cursor: pointer;
+        background-color: $linkedinBlue2;
+        border-radius: 30px;
+        outline: none;
+        border: none;
+        font-family: system-ui;
+        font-weight: 600;
+        color: #ffffff;
+        font-size: 18px;
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,40 @@
+.modal-ipt {
+    border: none;
+    background-color: white;
+    outline: none;
+    color: black;
+    font-size: 14px;
+    font-family: system-ui;
+    width: 100%;
+}
+
+.picture-icon {
+    position: absolute;
+    cursor: pointer;
+    color: #0073b1;
+    left: 20px;
+    bottom: 20px;
+}
+
+.progress-bar {
+    padding: 20px;
+}
+
+.postImage {
+    display: inline;
+    position: relative;
+
+    img {
+        width: 100px;
+        height: 100px;
+        border: 1px solid #d5d5d5;
+        margin: 10px;
+    }
+
+    .close-icon {
+        position: absolute;
+        bottom: 100px;
+        right: 10px;
+        cursor: pointer;
+    }
+}

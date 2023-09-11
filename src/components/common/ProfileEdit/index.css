@@ -1,0 +1,80 @@
+.edit-btn {
+  position: absolute;
+  right: 20px;
+}
+.edit-btn .edit-icon {
+  cursor: pointer;
+  padding: 10px;
+}
+.edit-btn .edit-icon:hover {
+  background-color: rgb(197, 197, 197);
+  border-radius: 50%;
+}
+
+.profile-edit-ipts {
+  display: grid;
+  margin-top: 40px;
+  gap: 20px;
+}
+.profile-edit-ipts label {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 12px;
+}
+.profile-edit-ipts .edit-ipt {
+  margin: -15px 0 0 0;
+  height: 20px;
+  padding: 10px;
+  border-color: white;
+  outline: none;
+  border: 1px solid #212121;
+  color: #212121;
+  border-radius: 3px;
+  font-family: system-ui;
+  font-size: 14px;
+}
+.profile-edit-ipts .edit-ipt:focus {
+  border: 1px solid rgb(11, 171, 211);
+}
+.profile-edit-ipts ::-moz-placeholder {
+  font-family: system-ui;
+  font-size: 14px;
+}
+.profile-edit-ipts ::placeholder {
+  font-family: system-ui;
+  font-size: 14px;
+}
+.profile-edit-ipts .edit-textarea {
+  margin: -15px 0 0 0;
+  padding: 10px;
+  border-color: white;
+  outline: none;
+  border: 1px solid #212121;
+  color: #212121;
+  border-radius: 3px;
+  font-family: system-ui;
+  font-size: 16px;
+  resize: none;
+}
+.profile-edit-ipts .edit-textarea:focus {
+  border: 1px solid rgb(11, 171, 211);
+  overflow-y: hidden;
+}
+
+.save-container {
+  display: flex;
+  justify-content: center;
+}
+.save-container .save-btn {
+  width: 300px;
+  height: 50px;
+  cursor: pointer;
+  background-color: #0073b1;
+  border-radius: 30px;
+  outline: none;
+  border: none;
+  font-family: system-ui;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 18px;
+  margin-top: 20px;
+}/*# sourceMappingURL=index.css.map */
