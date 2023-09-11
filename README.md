@@ -18,6 +18,6 @@
 如果你没有Firebase，需要你去注册。<br>
 创建好后，需要创建一个项目获取到网络应用的 Firebase 配置。<br>
 将其添加到firebaseConfig.js文件中的<br>
-![image](https://github.com/blakeking1013/Linkedin-clone/assets/62105623/889f7e4a-63d9-4041-a26b-abd57f71fe83)
+![image](https://github.com/blakeking1013/Linkedin-clone/assets/62105623/302dffe2-3e69-4f3d-bb27-65c86815b197)
 ## 教学
 如果您想了解如何构建它，前往https://youtu.be/HimR8Xtz17U?si=TDghQZEvvl6PvKco
